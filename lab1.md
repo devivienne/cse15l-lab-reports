@@ -1,9 +1,3 @@
-Share an example of using the command with no arguments.\
-Share an exmaple of using the command with a path to a directory as an argument.\
-Share an example of using the command with a path to a file as an argument.\
-
-
-
 # 1. cd
   1-1. the command with no arguments\
   ![Image](1-1.png)\
@@ -14,7 +8,6 @@ Share an example of using the command with a path to a file as an argument.\
   1-3. the command with a path to a file as an argument\
   ![Image](1-3.png)
   There wasn't any working directory when the command was run because en-us.txt is a file not a directory. Output is an error because when we use cd, we are supposed to switch the current working directory to the given path. However, since en-us.txt isn't a directory, it doesn't switch to a different directory when we typed cd, and it's not doing what it's supposed to do, so I would consider it an error.\
-
 
 
 # 2. ls
@@ -32,6 +25,7 @@ A screenshot or Markdown code block showing the command and its output\
 What the working directory was when the command was run\
 A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).\
 Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error.\
+
 
 # 3. cat
    3-1. the command with no arguments\
