@@ -9,6 +9,7 @@ Indicate whether the output is an error or not, and if it’s an error, explain 
 
 # 1. cd
   1-1. the command with no arguments\
+  ![Image](1-1.png)
   1-2. the command with a path to a directory as an argument\
   1-3. the command with a path to a file as an argument\
 
