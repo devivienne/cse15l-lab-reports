@@ -13,7 +13,7 @@ Indicate whether the output is an error or not, and if it’s an error, explain 
   1-2. the command with a path to a directory as an argument\
   ![Image](1-2.png)\
   1-3. the command with a path to a file as an argument\
-  ![Image](1-3.png)\
+  ![Image](1-3.png)
 
 # 2. ls
    2-1. the command with no arguments\
@@ -21,7 +21,7 @@ Indicate whether the output is an error or not, and if it’s an error, explain 
    2-2. the command with a path to a directory as an argument\
    ![Image](2-2.png)\
    2-3. the command with a path to a file as an argument\
-   ![Image](2-3.png)\
+   ![Image](2-3.png)
 
 # 3. cat
    3-1. the command with no arguments\
@@ -29,4 +29,4 @@ Indicate whether the output is an error or not, and if it’s an error, explain 
    3-2. the command with a path to a directory as an argument\
    ![Image](3-2.png)\
    3-3. the command with a path to a file as an argument\
-   ![Image](3-3.png)\
+   ![Image](3-3.png)
