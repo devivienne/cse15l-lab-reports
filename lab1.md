@@ -37,4 +37,4 @@
    
    ## 3-3. the command with a path to a file as an argument
    ![Image](3-3.png)
-   The working directory was /home/lecture1/Hello.java when the command was run. It is because cat prints the contents of the files given by the path and a file which is Hello.java is given by the path. It is not an error.
+   The working directory was /home when the command was run. The output is like this because cat prints the contents of the files given by the path and a file which is Hello.java is given by the path. It is not an error.
