@@ -1,4 +1,4 @@
-# 1. cd
+# 1. `cd`
   ## 1-1. the command with no arguments
   ![Image](1-1.png)\
   The working directory was nothing when the command was run. cd means to change the current directory to the given path. Therefore, since there was no argument, we can't switch the current directory and that's why nothing happened when the command was run. The output is not an error.
@@ -12,7 +12,7 @@
   There wasn't any working directory when the command was run because en-us.txt is a file not a directory. Output is an error because when we use cd, we are supposed to switch the current working directory to the given path. However, since en-us.txt isn't a directory, it doesn't switch to a different directory when we typed cd, and it's not doing what it's supposed to do, so I would consider it an error.
 
 
-# 2. ls
+# 2. `ls`
    ## 2-1. the command with no arguments
    ![Image](2-1.png)\
    The working directory was /home/ when the command was run. It is because lecture1 directory is under /home/ directory and ls shows the files and folders in the given path. The output is not an error.
@@ -26,7 +26,7 @@
    The working directory was /home/lecture1/Hello.java when the command was run. It is because it is the only file under the /home/lecture1/Hello.java directory. The output is not an error.
 
 
-# 3. cat
+# 3. `cat`
    ## 3-1. the command with no arguments
    ![Image](3-1.png)\
    The working directory was /home/ when the command was run. cat prints the contents of one or more files given by the path, but since there is no argument, it can't print anything. That's why there is nothing when the command was run. Output is not an error.
