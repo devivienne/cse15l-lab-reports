@@ -37,6 +37,5 @@ It should call url.getPath().equals method but because there was errors in my co
   ![Image](2-3.png)
 
 # Part 3
-In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn’t know before.
 I learned how to run servers on remote computers and how to access servers in easier way such as logging in without passwords. I also learned how to access URLs from the command line with using curl command. 
 
