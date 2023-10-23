@@ -22,7 +22,6 @@ class Handler implements URLHandler {
     }
 }`
 
-
 ![Image](1-1.png)
 It should call url.getPath().equals method but because there was errors in my code, it only only returned and showed 404 NOt Found!.
 
