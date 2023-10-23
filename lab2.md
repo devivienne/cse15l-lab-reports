@@ -1,6 +1,7 @@
 # Part 1
 
-```import java.io.IOException;
+```
+import java.io.IOException;
 import java.net.URI;
 import java.util.Scanner;
 
@@ -20,7 +21,8 @@ class Handler implements URLHandler {
         }
         return "404 Not Found!";
     }
-}```
+}
+```
 
 ![Image](1-1.png)
 It should call url.getPath().equals method but because there was errors in my code, it only only returned and showed 404 NOt Found!.
