@@ -7,19 +7,31 @@ import java.util.Scanner;
 
 class Handler implements URLHandler {
     String str = "";
+    int num = 0;
     public String handleRequest(URI url) {
         if (url.getPath().equals("/add-message")) {
             String[] parameters = url.getQuery().split("=");
             if (parameters[0].equals("s")) {
-                Scanner stringScanner = new Scanner(System.in);
-                String str = stringScanner.next();
-                return String.format("Input string is" + str);
+                num += 1;
+                String num1 = Integer.toString(num);
+                str += num1 + ". " + parameters[1] + "\n";
+                return str;
             }
-            Scanner stringScanner = new Scanner(System.in);
-            String str = stringScanner.next();
-            return String.format("Input string is" + str);
         }
         return "404 Not Found!";
+    }
+}
+
+class StringServer {
+    public static void main(String[] args) throws IOException {
+        if(args.length == 0){
+            System.out.println("Missing port number!");
+            return;
+        }
+
+        int port = Integer.parseInt(args[0]);
+
+        Server.start(port, new Handler());
     }
 }
 ```
