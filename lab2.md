@@ -36,11 +36,12 @@ class StringServer {
 }
 ```
 
-![Image](labreport2-1-1.png)
-
-
 ![Image](labreport2-1-2.png)
+When a URL is sent, the method handleRequest is called. The relevant argument for this method is the link of the url which is the URI value. Num variable was 0 at first but it increments by 1 as we add string to the query. Str variable is an empty string but when the path is /add-message?s=<string>, str will add a new string from the query.
 
+
+![Image](labreport2-1-1.png)
+I couldn't figure out how to get rid of %20 or + when I had white spaces on the URL. When a URL is sent, the method handleRequest is called. The relevant argument for this method is the link of the url which is the URI value. Num variable increments by 1 as we add string to the query. If there are 2 strings, num variable will be 2 which is the same as the number of the strings that I added from the query. Str variable is an empty string but when the path is /add-message?s=<string>, str keeps adding a new string from the query. Therefore, it displays the whole strings that we added to the query on the screen in order.
 
 # Part 2
   ## 2-1
