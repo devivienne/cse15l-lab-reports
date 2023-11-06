@@ -46,7 +46,7 @@ I couldn't figure out how to get rid of %20 or + when I had white spaces on the 
 # Part 2
   ## 2-1
   ![Image](2-1.png)\
-  ![Image](2-1-1.png)
+  ![Image](2-1-1.png)\
   ## 2-2
   ![Image](labreport2-2-2.png)
   ## 2-3
