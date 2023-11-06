@@ -36,8 +36,11 @@ class StringServer {
 }
 ```
 
-![Image](1-1.png)
-It should call url.getPath().equals method but because there was errors in my code, it only only returned and showed 404 NOt Found!.
+![Image](labreport2-1-1.png)
+
+
+![Image](labreport2-1-2.png)
+
 
 # Part 2
   ## 2-1
