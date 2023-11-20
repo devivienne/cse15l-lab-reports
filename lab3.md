@@ -52,5 +52,5 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
-This is the revised code for reverseInPlace. 
+This is the revised code for reverseInPlace. Now it passes the test. The only error is from the testReversed test that I didn't revised.
 
