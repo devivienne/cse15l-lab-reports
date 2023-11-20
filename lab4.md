@@ -9,6 +9,7 @@ Changing index 1 to 2:  type vim ListExamples.java, press esc to be in a normal 
 
 
 ![Image](lab4_7.png)
+
 I changed the code and it succeeded.
 
 After this, I used github Desktop to commit the change to the repository.
