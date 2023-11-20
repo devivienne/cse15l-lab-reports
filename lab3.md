@@ -60,9 +60,22 @@ This is the revised code and the bug test result for reverseInPlace. Now it pass
 # Part 2
 I chose grep command. Some lines are too long so I just added screenshots instead of codeblocks.
 1. grep -rl
+![Image](lab3_2_1.png)
+
+
 2. grep -v
-3. grep -c
-4. 4
+![Image](lab3_2_2_1.png)
+![Image](lab3_2_2_2.png)
+
+   
+4. grep -c
+![Image](lab3_2_3_1.png)
+![Image](lab3_2_3_2.png)
+
+   
+6. grep -n
+![Image](lab3_2_4_1.png)
+![Image](lab3_2_4_2.png)
 
 
 
