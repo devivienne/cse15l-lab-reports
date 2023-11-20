@@ -40,6 +40,8 @@ public class ArrayTests {
 	}
 ```
 
+![Image](lab3_1_1.png)
+![Image](lab3_1_2.png)
 For the first failure inducing input, the length of the array should be 2 but the length was 1, and it should return {2, 1} but it only returned {1}. It means that the true values in the array doesn't match the expected values. It is because the method doesn't reverse array correctly. It overwrites the original array elements without keeping the original values.
 An input that doesn't induce failure passed the test.
 
@@ -52,5 +54,6 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
-This is the revised code for reverseInPlace. Now it passes the test. The only error is from the testReversed test that I didn't revised.
+![Image](lab3_1_3.png)
+This is the revised code and the bug test result for reverseInPlace. Now it passes the test. The only error is from the testReversed test that I didn't revised.
 
