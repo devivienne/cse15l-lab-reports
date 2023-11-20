@@ -55,5 +55,7 @@ static void reverseInPlace(int[] arr) {
   }
 ```
 ![Image](lab3_1_3.png)
-This is the revised code and the bug test result for reverseInPlace. Now it passes the test. The only error is from the testReversed test that I didn't revised.
+This is the revised code and the bug test result for reverseInPlace. Now it passes the test. The only error is from the testReversed test that I didn't revise. To fix the code, I used temporary variable to swap the elements. Also we only need a loop that runs only up to half of the length of an array to swap the elements correctly.
+
+
 
