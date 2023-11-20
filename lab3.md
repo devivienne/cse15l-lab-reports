@@ -61,21 +61,29 @@ This is the revised code and the bug test result for reverseInPlace. Now it pass
 I chose grep command. Some lines are too long so I just added screenshots instead of codeblocks.
 1. grep -rl
 ![Image](lab3_2_1.png)
+These are two examples of grep -rl command. I tried to find the number of files in technical/plos directory containing the string "base pair”. The second one was finding the number of files in technical/biomed directory that contains the string “base pair”. It is useful because we can find the number of files that contains certain string in certain directory.
+Cite: From Week5 lab
 
 
 2. grep -v
 ![Image](lab3_2_2_1.png)
 ![Image](lab3_2_2_2.png)
+These are two examples of grep -v command. I used grep -v command to find all the lines in the file that don't contain the word "the". It is useful because we can easily include not matching results.
+Cite: https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/
 
    
-4. grep -c
+3. grep -c
 ![Image](lab3_2_3_1.png)
 ![Image](lab3_2_3_2.png)
+These are two examples of grep -c command. I used grep -c command to find the number of occurence of the string in the file. It is useful because grep -c counts the number of times the matched string appears in the file.
+Cite: https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/
 
    
-6. grep -n
+4. grep -n
 ![Image](lab3_2_4_1.png)
 ![Image](lab3_2_4_2.png)
+These are two examples of grep -n command. I used grep -n command to get the line numbers along with the matching strings from the file. It is useful because we can easily find where the string appears in the file.
+Cite: https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/
 
 
 
