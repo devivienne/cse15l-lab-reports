@@ -21,7 +21,7 @@ I ran the bash script and test failed.
 
 Using vim to change the code:
 Type vim ListExamples.java then it will be a vim mode.
-Changing index 1 to 2: press j until you get to the line 44. Press l to get the cursor next(right side) to 1 of index1. Press i to change to insert mode. Press delete key to delete 1 and press 2. Press esc to end the insert mode. Press :wq to save and quit vim mode.
+Changing index 1 to 2: press ```<j>``` until you get to the line 44. Press ```<l>``` to get the cursor next(right side) to 1 of index1. Press ```<i>``` to change to insert mode. Press ```<delete>``` key to delete 1 and press ```<2>```. Press ```<esc>``` to end the insert mode. Press ```<:wq>``` to save and quit vim mode.
 
 # Step 8
 ![Image](step8.png)
