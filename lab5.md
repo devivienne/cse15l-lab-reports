@@ -76,3 +76,6 @@ else
     echo "Fail"
 fi
 ```
+
+# Step 2
+I learned vim. It was really interesting to learn vim because before, I thought that we could only view files and revise them when we download the files and have them on our PC. However, I learned that we could actually access remotely to the directories and files without downloading them and use vim to edit the files. It was very easy and intuitive to learn vim.
