@@ -35,9 +35,11 @@ The bug was caused because of line 6 in test.sh file. It is because the student 
 
 # 4
 1. file, directory structure:
+```
    lab5
        -test.sh
        -lab5.java
+```
 2. Files before fixing the bug
 test.sh:
 ```
