@@ -32,5 +32,5 @@ I changed the code and it succeeded.
 ![Image](step9-1.png)
 ![Image](step9-2.png)
 
-After this I used git add ListExamples.java, git commit -m "fix bugs", and git push origin main to commit and push the resulting change to my Git account, but "Support for password authentication was removed on August 13, 2021." issue happened.
+After this I used ```git add ListExamples.java```, ```git commit -m "fix bugs"```, and ```git push origin main``` to commit and push the resulting change to my Git account, but "Support for password authentication was removed on August 13, 2021." issue happened.
 
